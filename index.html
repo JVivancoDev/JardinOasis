@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Jardín Oasis</title>
+
+  <meta http-equiv="Content-Security-Policy" content="
+    default-src 'self';
+    img-src 'self' data: https:;
+    style-src 'self' 'unsafe-inline' https://fonts.googleapis.com;
+    font-src https://fonts.gstatic.com;
+    script-src 'self';
+    connect-src 'self';
+    frame-ancestors 'none';
+    base-uri 'self';
+    form-action 'self';
+  ">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500&family=DM+Sans:wght@300;400;500&display=swap"
+    rel="stylesheet"
+  />
+
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <div class="toast" id="toast"></div>
+
+  <button class="fab-cart" id="fab-cart" type="button">
+    <span class="fab-cart-icon">🛒</span>
+    Carrito
+    <span class="fab-badge" id="fab-badge">0</span>
+  </button>
+
+  <header class="hero">
+    <span class="hero-icon">🌿</span>
+    <h1 id="nombre-negocio">Jardín Oasis</h1>
+    <p id="descripcion-negocio">Plantas con amor directo a tu hogar · Quillota</p>
+  </header>
+
+  <nav>
+    <button class="active" id="btn-catalogo" type="button">Catálogo</button>
+    <button id="btn-carrito" type="button">Carrito</button>
+  </nav>
+
+  <main class="main-content">
+    <section id="catalogo" class="section visible" aria-labelledby="titulo-catalogo">
+      <p class="section-title" id="titulo-catalogo">Nuestros productos</p>
+      <div class="product-grid" id="product-list"></div>
+    </section>
+
+    <section id="carrito" class="section" aria-labelledby="titulo-carrito">
+      <p class="section-title" id="titulo-carrito">Tu carrito</p>
+      <div id="cart-content"></div>
+    </section>
+  </main>
+
+  <footer>
+    Hecho con amor para <strong id="footer-nombre">Jardín Oasis</strong> · Quillota, Chile
+  </footer>
+
+  <script src="js/app.js"></script>
+</body>
+</html>

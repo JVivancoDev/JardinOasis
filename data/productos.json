@@ -1,0 +1,51 @@
+{
+  "negocio": {
+    "nombre": "Plantas & Jardín",
+    "descripcion": "Plantas con amor directo a tu hogar · Santiago",
+    "whatsapp": "56936757475"
+  },
+  "productos": [
+    {
+      "id": "cactus",
+      "emoji": "🌵",
+      "nombre": "Cactus surtido",
+      "precio": 3500,
+      "imagen": ""
+    },
+    {
+      "id": "suculenta",
+      "emoji": "🪴",
+      "nombre": "Suculenta",
+      "precio": 4000,
+      "imagen": "img/suculentas-de-interior-cebra.jpeg"
+    },
+    {
+      "id": "lavanda",
+      "emoji": "🌸",
+      "nombre": "Lavanda",
+      "precio": 5500,
+      "imagen": ""
+    },
+    {
+      "id": "helecho",
+      "emoji": "🌿",
+      "nombre": "Helecho",
+      "precio": 6000,
+      "imagen": ""
+    },
+    {
+      "id": "albahaca",
+      "emoji": "🌱",
+      "nombre": "Albahaca",
+      "precio": 2500,
+      "imagen": ""
+    },
+    {
+      "id": "begonia",
+      "emoji": "🌺",
+      "nombre": "Begonia",
+      "precio": 7000,
+      "imagen": ""
+    }
+  ]
+}
